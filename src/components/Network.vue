@@ -2,7 +2,7 @@
   <div>
     <div id="visualization"></div>
 
-    <Table ref="child"></Table>
+    <Table ref="child" ></Table>
   </div>
 </template>
 
