@@ -1,8 +1,18 @@
 <template>
   <div>
-    <div id="visualization"></div>
+    <v-container>
+      <v-row>
+        <v-col md="4">
+          <div id="visualization"></div>
+        </v-col>
+        <v-col md="8">
+          <Table ref="child" ></Table>
+        </v-col>
+      </v-row>
+    </v-container>
 
-    <Table ref="child" ></Table>
+
+
   </div>
 </template>
 
@@ -67,7 +77,7 @@ export default {
 </script>
 <style scoped>
 #visualization {
-  width: 600px;
+  width: 400px;
   height: 400px;
   border: 1px solid lightgray;
 }

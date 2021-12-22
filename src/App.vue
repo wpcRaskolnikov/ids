@@ -1,21 +1,17 @@
 <template>
   <div id="app">
-    <v-app>
-      <NavigationBar/>
-    </v-app>
-    <Network/>
+    <Layout/>
+
   </div>
 </template>
 
 <script>
-import Network from './components/Network'
-import NavigationBar from "./components/NavigationBar"
+import Layout from "@/components/layout/Layout";
 
 export default {
   name: 'App',
   components: {
-    NavigationBar,
-    Network
+    Layout,
   }
 }
 </script>
